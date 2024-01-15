@@ -22,6 +22,8 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
+import Divider from "primevue/divider";
+
 library.add(faUserSecret);
 library.add(faSquareFacebook);
 library.add(faFacebook);
@@ -37,4 +39,5 @@ app.use(PrimeVue);
 app.component("Button", Button);
 app.component("Card", Card);
 app.component("font-awesome-icon", FontAwesomeIcon);
+app.component("Divider", Divider);
 app.mount("#app");
