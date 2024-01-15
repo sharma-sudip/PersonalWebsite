@@ -1,9 +1,9 @@
 <template>
   <div
-    class="w-full absolute bottom-0 flex flex-row justify-content-between p-3 fadeindown animation-duration-1000"
+    class="w-full flex flex-row justify-content-between p-3 fadeindown animation-duration-1000"
   >
     <div class="flex flex-column gap-2">
-      <span class="prof-title">Reach Out to me!</span>
+      <span class="prof-title font-bold text-xl">Reach Out to me!</span>
       <span class="w-6 text-sm"
         >I AM AVAILABLE ON ALMOST EVERY SOCIAL MEDIA, YOU CAN CONTACT ME
         ANYWHERE. I WILL GET BACK TO YOU WITHIN 24 HOURS</span
