@@ -41,15 +41,11 @@
       class="w-full h-auto flex gap-2 cursor-pointer ml-3 fadeinleft animation-duration-1000"
     >
       <Button
-        class=""
-        size="small"
-        label="Contact Me"
-        :pt="{ root: { class: ['bg-indigo-500 border-none'] } }"
-      />
-      <Button
         label="Resume"
         size="small"
         :pt="{ root: { class: ['bg-indigo-500 border-none'] } }"
+        @click="openInNewTab"
+        class="w-2"
       />
     </div>
   </div>
@@ -57,4 +53,8 @@
 
 <script setup>
 import BrandIcons from "./BrandIcons.vue";
+
+const openInNewTab = () => {
+  window.open("/resume", "_blank");
+};
 </script>

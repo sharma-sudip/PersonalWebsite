@@ -4,12 +4,12 @@
   >
     <div class="flex flex-column gap-2">
       <span class="prof-title font-bold text-xl">Reach Out to me!</span>
-      <span class="w-6 text-sm"
+      <span class="w-6 text-sm opacity-50"
         >I AM AVAILABLE ON ALMOST EVERY SOCIAL MEDIA, YOU CAN CONTACT ME
         ANYWHERE. I WILL GET BACK TO YOU WITHIN 24 HOURS</span
       >
       <span class="font-bold line-height-3">Junior Software Developer</span>
-      <div class="flex flex-row gap-2">
+      <div class="flex flex-row gap-2 opacity-50">
         <font-awesome-icon
           :icon="['fas', 'location-dot']"
           size="xl"
