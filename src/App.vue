@@ -4,7 +4,7 @@ import Navbar from "./components/navbar.vue";
 </script>
 
 <template>
-  <Navbar />
+  <Navbar v-if="$route.name !== 'Resume'" />
   <router-view> </router-view>
-  <Footer />
+  <Footer v-if="$route.name !== 'Resume'" />
 </template>

@@ -10,8 +10,10 @@
         v-for="(value, key) in exprerienceData"
         :data="value"
         :key="key"
+        class="experience"
       />
     </div>
+    <Education class="mt-4" />
   </div>
 </template>
 
@@ -19,4 +21,10 @@
 import Intro from "../components/Intro.vue";
 import ExperienceComponent from "../components/ExperienceComponent.vue";
 import exprerienceData from "../data/experience";
+import Education from "../components/Education.vue";
+import { onMounted } from "vue";
+import { animationHelper } from "../js/observer";
+onMounted(() => {
+  animationHelper(".experience", ["zoomin", "animation-duration-1000"]);
+});
 </script>
