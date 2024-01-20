@@ -1,6 +1,8 @@
 <template>
   <div class="flex flex-column">
-    <div class="flex flex-column md:flex-row gap-3 w-full">
+    <div
+      class="flex flex-column md:flex-row align-items-center md:align-items-center gap-1 w-full"
+    >
       <div class="card w-full md:w-9 fadeinleft animation-duration-1000">
         <Card
           class="border-none"
@@ -13,7 +15,7 @@
             },
           }"
         >
-          <template #title> SUDIP SHARMA </template>
+          <template #title> SUDIP SHARMA <Divider /></template>
           <template #content>
             <p class="m-0">
               I am a computer science graduate at Youngstown State University
@@ -28,24 +30,24 @@
         </Card>
       </div>
       <div
-        class="photo w-full md:w-3 fadeinright animation-duration-1000 transition-delay-500 transition-ease-in"
+        class="photo w-full md:w-4 fadeinright animation-duration-1000 transition-delay-500 transition-ease-in mb-3 md:mb-0"
       >
         <img
-          class="h-14rem w-10 border-circle ml-0 md:ml-6"
+          class="h-18rem w-18rem border-circle ml-3 md:ml-0 md:mb-0"
           style="border: 8px solid var(--indigo-500)"
           src="/Sudip-Profile-Facebook.jpeg"
         />
       </div>
     </div>
     <div
-      class="w-full h-auto flex gap-2 cursor-pointer ml-3 fadeinleft animation-duration-1000"
+      class="w-full h-auto flex gap-2 cursor-pointer fadeinleft animation-duration-1000"
     >
       <Button
         label="Resume"
         size="small"
         :pt="{ root: { class: ['bg-indigo-500 border-none'] } }"
         @click="openInNewTab"
-        class="w-2"
+        class="w-full md:w-2 ml-2"
       />
     </div>
   </div>

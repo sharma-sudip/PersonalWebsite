@@ -13,7 +13,7 @@ const exprerienceData = [
     ],
     styleAttributes: {
       headerColor: "bg-blue-900",
-      imageUrl: "http://localhost:5173/Delta.png",
+      imageUrl: "/Delta.png",
     },
   },
   {
@@ -27,7 +27,7 @@ const exprerienceData = [
     ],
     styleAttributes: {
       headerColor: "bg-pink-900",
-      imageUrl: "http://localhost:5173/YSU.png",
+      imageUrl: "/YSU.png",
     },
   },
   {
@@ -35,16 +35,13 @@ const exprerienceData = [
     jobTitle: "Junior Software Engineer",
     jobDuration: "October 2023 - Present",
     content: [
-      "Contributed to the successful migration of legacy applications to AWS Cloud, utilizing S3 storage, AWS Secret Manager (ASM), and AWS CLI for efficient management.",
-      "Developed secure Restful APIs with Spring Boot framework, implementing OAuth authentication.",
-      "Managed DB2 and PostgreSQL databases for efficient data storage and retrieval.",
-      "Deployed applications to WebSphere Application Server, ensuring seamless deployment.",
-      "Proficient in Git, Jenkins, Gradle, and Maven for streamlined version control, continuous integration, and build management.",
-      "Conducted thorough unit and integration testing, created comprehensive API documentation, and demonstrated expertise in webdevelopment with JSP, Struts, and ORM tools.",
+      "Collaborated with senior developers to construct a POC application utilizing .NET for backend, and EXTJS for frontend.",
+      " Assisted in the development of presentations using PowerPoint to showcase the POC application to potential clients.",
+      "Engaged in training to acquire new skills in technologies such as Vue, Golang, Next.js, .NET Framework, ExtJS, and more.",
     ],
     styleAttributes: {
       headerColor: "bg-blue-600",
-      imageUrl: "http://localhost:5173/xfact.jpeg",
+      imageUrl: "/xfact.jpeg",
     },
   },
 ];
