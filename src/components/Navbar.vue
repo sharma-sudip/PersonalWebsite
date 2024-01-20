@@ -26,7 +26,7 @@ let scrollToWorkExperience = () => {
   });
 };
 const openInNewTab = () => {
-  window.open("/resume", "_blank");
+  window.open("/Resume.pdf", "_blank");
 };
 
 const openAchievement = () => {
