@@ -7,7 +7,7 @@
     <span class="font-bold mt-3">Youngstown State University</span>
     <span class="text-sm">Bachelor of Science in Computer Science</span>
     <span class="text-sm">August 2018 - May 2022</span>
-    <span class="text-sm">GPA: 3.5</span>
+    <span class="text-sm">GPA : 3.5</span>
     <ul class="text-sm">
       <li>
         Studied Software Engineering, Data Structures and Algorithms, and some
