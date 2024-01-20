@@ -1,8 +1,6 @@
-<script></script>
-
 <template>
   <div
-    class="w-full md:h-4rem h-20rem flex flex-column md:flex-row justify-content-start md:justify-content-between bg-white align-items-center"
+    class="w-full md:h-4rem h-15rem p-3 md:p-0 flex flex-column md:flex-row justify-content-start md:justify-content-between bg-white align-items-center"
   >
     <div class="w-4 pl-2"></div>
     <div
@@ -20,10 +18,8 @@
 </template>
 <script setup>
 let scrollToWorkExperience = () => {
-  window.scrollTo({
-    top: 525,
-    behavior: "smooth",
-  });
+  const element = document.querySelector(".exp");
+  element.scrollIntoView({ behavior: "smooth" });
 };
 const openInNewTab = () => {
   window.open("/Resume.pdf", "_blank");
@@ -34,9 +30,7 @@ const openAchievement = () => {
 };
 
 const openContactMe = () => {
-  window.scrollTo({
-    top: 100000,
-    behavior: "smooth",
-  });
+  const element = document.querySelector(".foot");
+  element.scrollIntoView({ behavior: "smooth" });
 };
 </script>

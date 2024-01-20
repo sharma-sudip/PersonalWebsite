@@ -2,7 +2,7 @@
   <div class="flex flex-column p-card shadow-8 p-4 edu">
     <span class="font-bold text-3xl">Education</span>
     <div class="mt-3">
-      <img src="http://localhost:5173/YSU.png" class="w-8rem h-8rem" />
+      <img src="/YSU.png" class="w-8rem h-8rem" />
     </div>
     <span class="font-bold mt-3">Youngstown State University</span>
     <span class="text-sm">Bachelor of Science in Computer Science</span>

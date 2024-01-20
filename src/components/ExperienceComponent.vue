@@ -3,7 +3,7 @@
     class="flex flex-column align-items-center md:w-4 sm:w-full border-round shadow-8"
   >
     <div
-      class="flex w-full h-9rem flex-column border-round border-noround-bottom"
+      class="flex w-full h-9rem flex-column border-round border-noround-bottom p-2 md:p-0 text-sm md:text-base"
       :class="props.data.styleAttributes?.headerColor"
     >
       <h2 class="text-white align-self-center">
