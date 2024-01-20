@@ -33,7 +33,7 @@
         <img
           class="h-14rem w-10 border-circle ml-0 md:ml-6"
           style="border: 8px solid var(--indigo-500)"
-          src="http://localhost:5173/Sudip-Profile-Facebook.jpeg"
+          src="/Sudip-Profile-Facebook.jpeg"
         />
       </div>
     </div>
