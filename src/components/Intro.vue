@@ -18,10 +18,9 @@
           <template #title> SUDIP SHARMA <Divider /></template>
           <template #content>
             <p class="m-0">
-              I am a computer science graduate at Youngstown State University
-              with specialization in software development. I am actively looking
-              for full time software developer opportunities. I am proficient in
-              React, C, C++, Java and Python programming languages.
+             Computer science graduate with three years of professional experience.
+	     Casually exploring opportunities to apply university-acquired knowledge to real-world solutions.
+	     Skilled in Java, Python, and JavaScript programming languages, with hands-on experience in full-stack development using Vue, React, SpringBoot, and more.
             </p>
           </template>
           <template #footer>
@@ -35,7 +34,7 @@
         <img
           class="h-18rem w-18rem border-circle ml-3 md:ml-0 md:mb-0"
           style="border: 8px solid var(--indigo-500)"
-          src="/Sudip-Profile-Facebook.jpeg"
+	  src="/Sudip-Profile-Facebook.jpeg"
         />
       </div>
     </div>
