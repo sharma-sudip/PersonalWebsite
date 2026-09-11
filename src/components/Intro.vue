@@ -18,7 +18,7 @@
           <template #title> SUDIP SHARMA <Divider /></template>
           <template #content>
             <p class="m-0">
-             Computer science graduate with three years of professional experience.
+             Computer science graduate with four years of professional experience.
 	     Casually exploring opportunities to apply university-acquired knowledge to real-world solutions.
 	     Skilled in Java, Python, and JavaScript programming languages, with hands-on experience in full-stack development using Vue, React, SpringBoot, and more.
             </p>
