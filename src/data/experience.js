@@ -31,13 +31,16 @@ const exprerienceData = [
     },
   },
   {
-    companyName: "xFact Inc.",
-    jobTitle: "Junior Software Engineer",
+    companyName: "DataServ Integrations LLC",
+    jobTitle: "SOFTWARE ENGINEER",
     jobDuration: "October 2023 - Present",
     content: [
-      "Collaborated with senior developers to construct a POC application utilizing .NET for backend, and EXTJS for frontend.",
-      " Assisted in the development of presentations using PowerPoint to showcase the POC application to potential clients.",
-      "Engaged in training to acquire new skills in technologies such as Vue, Golang, Next.js, .NET Framework, ExtJS, and more.",
+      "Built a full-stack web application using Java 25, Spring MVC, Thymeleaf, Datastar, and PostgreSQL.",
+      "Implemented OIDC authentication with Keycloak and role-based access control using Spring Security.",
+      " Developed frontend templates and backend controllers/services following MVC architecture.",
+	  "Assisted in the development of a Single Sign-On (SSO) application, utilizing Vue.js for front-end interface and integrating backend APIs for user authentication.",
+	  "Participated in the migration of legacy applications, transitioning from traditional login methods to modernized login UI designs, enhancing user experience and security measures.",
+	  "Collaborated with senior developers to construct a POC application utilizing .NET for backend, and EXTJS for frontend"
     ],
     styleAttributes: {
       headerColor: "bg-blue-600",
