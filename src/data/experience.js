@@ -44,7 +44,7 @@ const exprerienceData = [
     ],
     styleAttributes: {
       headerColor: "bg-blue-600",
-      imageUrl: "/xfact.jpeg",
+      imageUrl: "/dataserv_inc_cover.jpg",
     },
   },
 ];
