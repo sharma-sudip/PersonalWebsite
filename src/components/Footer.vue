@@ -8,7 +8,7 @@
         >I AM AVAILABLE ON ALMOST EVERY SOCIAL MEDIA, YOU CAN CONTACT ME
         ANYWHERE. I WILL GET BACK TO YOU WITHIN 24 HOURS</span
       >
-      <span class="font-bold line-height-3">Junior Software Developer</span>
+      <span class="font-bold line-height-3">Software Developer</span>
       <div class="flex flex-row gap-2 opacity-50">
         <font-awesome-icon
           :icon="['fas', 'location-dot']"
