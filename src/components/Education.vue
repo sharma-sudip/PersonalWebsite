@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-column p-card shadow-8 p-4 edu">
+  <div class="flex flex-column p-card shadow-4 p-4 edu">
     <span class="font-bold text-3xl">Education</span>
     <div class="mt-3">
       <img src="/YSU.png" class="w-8rem h-8rem" />

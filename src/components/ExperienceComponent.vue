@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-column align-items-center md:w-4 sm:w-full border-round shadow-8"
+    class="flex flex-column align-items-center md:w-4 sm:w-full border-round shadow-4"
   >
     <div
       class="flex w-full h-9rem flex-column border-round border-noround-bottom p-2 md:p-0 text-sm md:text-base"
